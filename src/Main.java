@@ -55,12 +55,12 @@ public class Main {
         System.out.println(boxerWeightDiff2);
 
         //Task 8
-        //8.1
+        // 8.1
         var workHoursTotal = 640;
         var workHours = 8;
         var workersNumber = workHoursTotal / workHours;
         System.out.println("Всего работников в компании — " + workersNumber + " человек");
-        //8.2
+        // 8.2
         workersNumber = workersNumber + 94;
         workHoursTotal = workHours * workersNumber;
         System.out.println("Если в компании работает " + workersNumber + " человек, то всего " + workHoursTotal + " часов работы может быть поделено между сотрудниками");
